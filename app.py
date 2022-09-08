@@ -17,5 +17,5 @@ def main():
     }
 
 @app.get('/test')
-def get_units_info(admincode=Query(None)):
+def get_units_info():
     return {'msg':'qqqqqqqqqqq'}
