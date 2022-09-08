@@ -15,3 +15,7 @@ def main():
     return {
         "message": "Hello my friend"
     }
+
+@app.get('/API/test')
+def get_units_info(admincode=Query(None)):
+    return {'msg':'qqqqqqqqqqq'}
